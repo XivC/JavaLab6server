@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="15.0.1" class="java.beans.XMLDecoder">
+ <object class="java.util.HashMap">
+  <void method="put">
+   <string>key1</string>
+   <object class="com.xivs.lab.Worker">
+    <void property="coordinates">
+     <object class="com.xivs.lab.Coordinates">
+      <void property="x">
+       <long>500</long>
+      </void>
+      <void property="y">
+       <double>136.0</double>
+      </void>
+     </object>
+    </void>
+    <void property="creationDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2021-04-12</string>
+     </object>
+    </void>
+    <void property="endDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2084-07-20</string>
+     </object>
+    </void>
+    <void property="id">
+     <long>7417761350452790273</long>
+    </void>
+    <void property="name">
+     <string>Pudge</string>
+    </void>
+    <void property="organization">
+     <object class="com.xivs.lab.Organization">
+      <void property="annualTurnover">
+       <int>9715</int>
+      </void>
+      <void property="officialAddress">
+       <object class="com.xivs.lab.Address">
+        <void property="street">
+         <string>Slave str. 13</string>
+        </void>
+        <void property="zipCode">
+         <string>937300318</string>
+        </void>
+       </object>
+      </void>
+      <void property="type">
+       <object class="java.lang.Enum" id="OrganizationType0" method="valueOf">
+        <class>com.xivs.lab.OrganizationType</class>
+        <string>GOVERNMENT</string>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="position">
+     <object class="java.lang.Enum" id="Position0" method="valueOf">
+      <class>com.xivs.lab.Position</class>
+      <string>CLEANER</string>
+     </object>
+    </void>
+    <void property="salary">
+     <float>260197.0</float>
+    </void>
+    <void property="status">
+     <object class="java.lang.Enum" id="Status0" method="valueOf">
+      <class>com.xivs.lab.Status</class>
+      <string>HIRED</string>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>key2</string>
+   <object class="com.xivs.lab.Worker">
+    <void property="coordinates">
+     <object class="com.xivs.lab.Coordinates">
+      <void property="x">
+       <long>504</long>
+      </void>
+      <void property="y">
+       <double>59.0</double>
+      </void>
+     </object>
+    </void>
+    <void property="creationDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2021-04-12</string>
+     </object>
+    </void>
+    <void property="endDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2042-07-19</string>
+     </object>
+    </void>
+    <void property="id">
+     <long>2673500683663664129</long>
+    </void>
+    <void property="name">
+     <string>Oleg</string>
+    </void>
+    <void property="organization">
+     <object class="com.xivs.lab.Organization">
+      <void property="annualTurnover">
+       <int>7175</int>
+      </void>
+      <void property="officialAddress">
+       <object class="com.xivs.lab.Address">
+        <void property="street">
+         <string>Slave str. 43</string>
+        </void>
+        <void property="zipCode">
+         <string>930034541</string>
+        </void>
+       </object>
+      </void>
+      <void property="type">
+       <object idref="OrganizationType0"/>
+      </void>
+     </object>
+    </void>
+    <void property="position">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>com.xivs.lab.Position</class>
+      <string>LABORER</string>
+     </object>
+    </void>
+    <void property="salary">
+     <float>320450.0</float>
+    </void>
+    <void property="status">
+     <object idref="Status0"/>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>key0</string>
+   <object class="com.xivs.lab.Worker">
+    <void property="coordinates">
+     <object class="com.xivs.lab.Coordinates">
+      <void property="x">
+       <long>297</long>
+      </void>
+      <void property="y">
+       <double>74.0</double>
+      </void>
+     </object>
+    </void>
+    <void property="creationDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2021-04-12</string>
+     </object>
+    </void>
+    <void property="endDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2054-01-12</string>
+     </object>
+    </void>
+    <void property="id">
+     <long>3322068128201784321</long>
+    </void>
+    <void property="name">
+     <string>Artem</string>
+    </void>
+    <void property="organization">
+     <object class="com.xivs.lab.Organization">
+      <void property="annualTurnover">
+       <int>7353</int>
+      </void>
+      <void property="officialAddress">
+       <object class="com.xivs.lab.Address">
+        <void property="street">
+         <string>Slave str. 67</string>
+        </void>
+        <void property="zipCode">
+         <string>578717314</string>
+        </void>
+       </object>
+      </void>
+      <void property="type">
+       <object class="java.lang.Enum" id="OrganizationType1" method="valueOf">
+        <class>com.xivs.lab.OrganizationType</class>
+        <string>PUBLIC</string>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="position">
+     <object idref="Position0"/>
+    </void>
+    <void property="salary">
+     <float>352218.0</float>
+    </void>
+    <void property="status">
+     <object class="java.lang.Enum" id="Status1" method="valueOf">
+      <class>com.xivs.lab.Status</class>
+      <string>RECOMMENDED_FOR_PROMOTION</string>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>key5</string>
+   <object class="com.xivs.lab.Worker">
+    <void property="coordinates">
+     <object class="com.xivs.lab.Coordinates">
+      <void property="x">
+       <long>620</long>
+      </void>
+      <void property="y">
+       <double>62.0</double>
+      </void>
+     </object>
+    </void>
+    <void property="creationDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2021-04-12</string>
+     </object>
+    </void>
+    <void property="endDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2088-01-17</string>
+     </object>
+    </void>
+    <void property="id">
+     <long>6123186129404615681</long>
+    </void>
+    <void property="name">
+     <string>Pudge</string>
+    </void>
+    <void property="organization">
+     <object class="com.xivs.lab.Organization">
+      <void property="annualTurnover">
+       <int>3558</int>
+      </void>
+      <void property="officialAddress">
+       <object class="com.xivs.lab.Address">
+        <void property="street">
+         <string>Slave str. 47</string>
+        </void>
+        <void property="zipCode">
+         <string>884091829</string>
+        </void>
+       </object>
+      </void>
+      <void property="type">
+       <object idref="OrganizationType0"/>
+      </void>
+     </object>
+    </void>
+    <void property="position">
+     <object idref="Position0"/>
+    </void>
+    <void property="salary">
+     <float>986364.0</float>
+    </void>
+    <void property="status">
+     <object class="java.lang.Enum" id="Status2" method="valueOf">
+      <class>com.xivs.lab.Status</class>
+      <string>REGULAR</string>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>key6</string>
+   <object class="com.xivs.lab.Worker">
+    <void property="coordinates">
+     <object class="com.xivs.lab.Coordinates">
+      <void property="x">
+       <long>373</long>
+      </void>
+      <void property="y">
+       <double>65.0</double>
+      </void>
+     </object>
+    </void>
+    <void property="creationDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2021-04-12</string>
+     </object>
+    </void>
+    <void property="endDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2079-05-13</string>
+     </object>
+    </void>
+    <void property="id">
+     <long>3539529121876669441</long>
+    </void>
+    <void property="name">
+     <string>Jesus_Christ</string>
+    </void>
+    <void property="organization">
+     <object class="com.xivs.lab.Organization">
+      <void property="annualTurnover">
+       <int>2590</int>
+      </void>
+      <void property="officialAddress">
+       <object class="com.xivs.lab.Address">
+        <void property="street">
+         <string>Slave str. 33</string>
+        </void>
+        <void property="zipCode">
+         <string>396948608</string>
+        </void>
+       </object>
+      </void>
+      <void property="type">
+       <object idref="OrganizationType1"/>
+      </void>
+     </object>
+    </void>
+    <void property="position">
+     <object class="java.lang.Enum" id="Position1" method="valueOf">
+      <class>com.xivs.lab.Position</class>
+      <string>BAKER</string>
+     </object>
+    </void>
+    <void property="salary">
+     <float>951686.0</float>
+    </void>
+    <void property="status">
+     <object idref="Status0"/>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>key3</string>
+   <object class="com.xivs.lab.Worker">
+    <void property="coordinates">
+     <object class="com.xivs.lab.Coordinates">
+      <void property="x">
+       <long>750</long>
+      </void>
+      <void property="y">
+       <double>55.0</double>
+      </void>
+     </object>
+    </void>
+    <void property="creationDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2021-04-12</string>
+     </object>
+    </void>
+    <void property="endDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2049-04-17</string>
+     </object>
+    </void>
+    <void property="id">
+     <long>2067485375070357505</long>
+    </void>
+    <void property="name">
+     <string>Jesus_Christ</string>
+    </void>
+    <void property="organization">
+     <object class="com.xivs.lab.Organization">
+      <void property="annualTurnover">
+       <int>3217</int>
+      </void>
+      <void property="officialAddress">
+       <object class="com.xivs.lab.Address">
+        <void property="street">
+         <string>Slave str. 32</string>
+        </void>
+        <void property="zipCode">
+         <string>158453042</string>
+        </void>
+       </object>
+      </void>
+      <void property="type">
+       <object idref="OrganizationType0"/>
+      </void>
+     </object>
+    </void>
+    <void property="position">
+     <object idref="Position0"/>
+    </void>
+    <void property="salary">
+     <float>392602.0</float>
+    </void>
+    <void property="status">
+     <object idref="Status1"/>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>key4</string>
+   <object class="com.xivs.lab.Worker">
+    <void property="coordinates">
+     <object class="com.xivs.lab.Coordinates">
+      <void property="x">
+       <long>142</long>
+      </void>
+      <void property="y">
+       <double>67.0</double>
+      </void>
+     </object>
+    </void>
+    <void property="creationDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2021-04-12</string>
+     </object>
+    </void>
+    <void property="endDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2035-02-15</string>
+     </object>
+    </void>
+    <void property="id">
+     <long>4701094919060647937</long>
+    </void>
+    <void property="name">
+     <string>Pudge</string>
+    </void>
+    <void property="organization">
+     <object class="com.xivs.lab.Organization">
+      <void property="annualTurnover">
+       <int>4510</int>
+      </void>
+      <void property="officialAddress">
+       <object class="com.xivs.lab.Address">
+        <void property="street">
+         <string>Slave str. 44</string>
+        </void>
+        <void property="zipCode">
+         <string>350640890</string>
+        </void>
+       </object>
+      </void>
+      <void property="type">
+       <object class="java.lang.Enum" id="OrganizationType2" method="valueOf">
+        <class>com.xivs.lab.OrganizationType</class>
+        <string>COMMERCIAL</string>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="position">
+     <object idref="Position0"/>
+    </void>
+    <void property="salary">
+     <float>180704.0</float>
+    </void>
+    <void property="status">
+     <object class="java.lang.Enum" id="Status3" method="valueOf">
+      <class>com.xivs.lab.Status</class>
+      <string>FIRED</string>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>key9</string>
+   <object class="com.xivs.lab.Worker">
+    <void property="coordinates">
+     <object class="com.xivs.lab.Coordinates">
+      <void property="x">
+       <long>584</long>
+      </void>
+      <void property="y">
+       <double>83.0</double>
+      </void>
+     </object>
+    </void>
+    <void property="creationDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2021-04-12</string>
+     </object>
+    </void>
+    <void property="endDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2086-07-22</string>
+     </object>
+    </void>
+    <void property="id">
+     <long>3037462139172956161</long>
+    </void>
+    <void property="name">
+     <string>Artem</string>
+    </void>
+    <void property="organization">
+     <object class="com.xivs.lab.Organization">
+      <void property="annualTurnover">
+       <int>1257</int>
+      </void>
+      <void property="officialAddress">
+       <object class="com.xivs.lab.Address">
+        <void property="street">
+         <string>Slave str. 7</string>
+        </void>
+        <void property="zipCode">
+         <string>963122446</string>
+        </void>
+       </object>
+      </void>
+      <void property="type">
+       <object idref="OrganizationType0"/>
+      </void>
+     </object>
+    </void>
+    <void property="position">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>com.xivs.lab.Position</class>
+      <string>HEAD_OF_DEPARTMENT</string>
+     </object>
+    </void>
+    <void property="salary">
+     <float>802784.0</float>
+    </void>
+    <void property="status">
+     <object idref="Status2"/>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>key7</string>
+   <object class="com.xivs.lab.Worker">
+    <void property="coordinates">
+     <object class="com.xivs.lab.Coordinates">
+      <void property="x">
+       <long>549</long>
+      </void>
+      <void property="y">
+       <double>31.0</double>
+      </void>
+     </object>
+    </void>
+    <void property="creationDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2021-04-12</string>
+     </object>
+    </void>
+    <void property="endDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2068-05-10</string>
+     </object>
+    </void>
+    <void property="id">
+     <long>7411665404914199553</long>
+    </void>
+    <void property="name">
+     <string>Artem</string>
+    </void>
+    <void property="organization">
+     <object class="com.xivs.lab.Organization">
+      <void property="annualTurnover">
+       <int>1433</int>
+      </void>
+      <void property="officialAddress">
+       <object class="com.xivs.lab.Address">
+        <void property="street">
+         <string>Slave str. 84</string>
+        </void>
+        <void property="zipCode">
+         <string>495135948</string>
+        </void>
+       </object>
+      </void>
+      <void property="type">
+       <object idref="OrganizationType2"/>
+      </void>
+     </object>
+    </void>
+    <void property="position">
+     <object idref="Position1"/>
+    </void>
+    <void property="salary">
+     <float>737345.0</float>
+    </void>
+    <void property="status">
+     <object idref="Status0"/>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>key8</string>
+   <object class="com.xivs.lab.Worker">
+    <void property="coordinates">
+     <object class="com.xivs.lab.Coordinates">
+      <void property="x">
+       <long>746</long>
+      </void>
+      <void property="y">
+       <double>70.0</double>
+      </void>
+     </object>
+    </void>
+    <void property="creationDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2021-04-12</string>
+     </object>
+    </void>
+    <void property="endDate">
+     <object class="java.time.LocalDate" method="parse">
+      <string>2036-01-18</string>
+     </object>
+    </void>
+    <void property="id">
+     <long>4773225570499267585</long>
+    </void>
+    <void property="name">
+     <string>Donald_Trump</string>
+    </void>
+    <void property="organization">
+     <object class="com.xivs.lab.Organization">
+      <void property="annualTurnover">
+       <int>3356</int>
+      </void>
+      <void property="officialAddress">
+       <object class="com.xivs.lab.Address">
+        <void property="street">
+         <string>Slave str. 17</string>
+        </void>
+        <void property="zipCode">
+         <string>623578730</string>
+        </void>
+       </object>
+      </void>
+      <void property="type">
+       <object idref="OrganizationType1"/>
+      </void>
+     </object>
+    </void>
+    <void property="position">
+     <object idref="Position0"/>
+    </void>
+    <void property="salary">
+     <float>684970.0</float>
+    </void>
+    <void property="status">
+     <object idref="Status3"/>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
