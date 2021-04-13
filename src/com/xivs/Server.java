@@ -202,6 +202,11 @@ public class Server {
                                 Response resp = interpreter.execute(rq);
                                 this.sendResponse(client, resp);
                             }
+                            else{
+                                key.channel().close();
+                                logger.info("Соединение разорвано {}", client.socket().getRemoteSocketAddress());
+
+                            }
 
                         }
 
