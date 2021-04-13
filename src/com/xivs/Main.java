@@ -9,6 +9,13 @@ import java.net.BindException;
 public class Main {
 
     public static void main(String[] args) throws IOException {
+        int port;
+        if(args.length == 0){
+            port = 13337;
+        }
+        else{
+            port = Integer.parseInt(args[1]);
+        }
         WorkersManager manager = new WorkersManager();
         try {
             manager.load();
@@ -24,7 +31,7 @@ public class Main {
 
 
         try {
-            server.bind(13337);
+            server.bind(port);
             server.run();
         } catch (BindException ex) {
             System.out.println("Порт занят");
